@@ -13,5 +13,5 @@ while number >= i:
       else: 
          number = number / i
          factors.append(i)
-print(factors)
+print(max(factors))
      
