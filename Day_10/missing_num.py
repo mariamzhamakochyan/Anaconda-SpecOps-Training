@@ -7,7 +7,7 @@ def arr(num):
                swap = True
             if swap == False:
                break  
-    for n in range(num[-1]+1):
+    for n in range(len(num)+1):
         if n not in num:
            return n 
 num = [9,6,4,2,3,5,7,0,1]
