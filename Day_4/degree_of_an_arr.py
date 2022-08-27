@@ -1,3 +1,6 @@
+
+'''Not correct'''
+
 def degree(nums):
     i =  max(set(nums), key = nums.count)
     first = nums.index(i)
